@@ -12,7 +12,7 @@ function Viewstory() {
   }
 
   useEffect(() => {
-    fetch(`http://localhost:3000/shorts/${id}`)
+    fetch(`/api/shorts/${id}`)
       .then((res) => res.json())
       .then((data) => setPost1(data));
   }, [id]);

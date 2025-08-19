@@ -7,7 +7,7 @@ function Story() {
   const navigation = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:3000/shorts")
+    fetch("/api/shorts")
       .then((res) => res.json())
       .then((data) => setShot(data));
   }, []);

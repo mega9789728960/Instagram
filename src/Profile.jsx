@@ -6,12 +6,12 @@ function Profile() {
   const [followers, setfollowers] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/profile").then((data) => setprofile(data.data));
-    axios.get("http://localhost:3000/followers").then((data) => setfollowers(data.data));
+    axios.get("/api/profile").then((data) => setprofile(data.data));
+    axios.get("/api/followers").then((data) => setfollowers(data.data));
   }, []);
 
   const jk = async (id) => {
-    axios.delete(`http://localhost:3000/followers/${id}`);
+    axios.delete(`/api/followers/${id}`);
   };
 
   function onchangehandler(e) {
@@ -22,7 +22,7 @@ function Profile() {
   }
 
   const handen1 = async () => {
-    axios.put("http://localhost:3000/profile", profile)
+    axios.put("/api/profile", profile)
       .then(() => console.log("updated"));
   };
 

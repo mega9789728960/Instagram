@@ -6,17 +6,17 @@ function Suggestion() {
   const [pro, setpro] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/suggestion")
+    fetch("/api/suggestion")
       .then((data) => data.json())
       .then((data) => setsugest(data));
 
-    fetch("http://localhost:3000/profile")
+    fetch("/api/profile")
       .then((data) => data.json())
       .then((data) => setpro(data));
   }, []);
 
   const fhh = async (id, username) => {
-    axios.post("http://localhost:3000/followers", { id, username });
+    axios.post("/api/followers", { id, username });
   };
 
   return (

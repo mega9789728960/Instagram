@@ -4,7 +4,7 @@ function Post() {
   const [post, setpost] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/posts")
+    fetch("/api/posts")
       .then((data) => data.json())
       .then((data) => setpost(data));
   }, []);
