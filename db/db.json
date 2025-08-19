@@ -5,9 +5,9 @@
       "user": {
         "id": 101,
         "username": "usernanc",
-        "profile_pic": "src/assets/ben1.jpg"
+        "profile_pic": "/ben1.jpg"
       },
-      "image": "src/assets/ben1.jpg",
+      "image": "/ben1.jpg",
       "caption": "Beautiful sunset picture",
       "likes": 125,
       "comments": [
@@ -27,9 +27,9 @@
       "user": {
         "id": 102,
         "username": "traveler_john",
-        "profile_pic": "src/assets/ben2.jpg"
+        "profile_pic": "/ben2.jpg"
       },
-      "image": "src/assets/ben2.jpg",
+      "image": "/ben2.jpg",
       "caption": "Reached the top! 🏔️",
       "likes": 210,
       "comments": [
@@ -49,9 +49,9 @@
       "user": {
         "id": 103,
         "username": "foodie_anna",
-        "profile_pic": "src/assets/ben3.jpg"
+        "profile_pic": "/ben3.jpg"
       },
-      "image": "src/assets/ben3.jpg",
+      "image": "/ben3.jpg",
       "caption": "Homemade pasta night 🍝",
       "likes": 98,
       "comments": [
@@ -70,23 +70,23 @@
   "profile": {
     "id": 101,
     "username": "usernancjfrhf",
-    "profile_pic": "src/assets/ben1.jpg"
+    "profile_pic": "/ben1.jpg"
   },
   "suggestion": [
     {
       "id": "101",
       "username": "usernanc",
-      "profile_pic": "src/assets/ben1.jpg"
+      "profile_pic": "/ben1.jpg"
     },
     {
       "id": "102",
       "username": "traveler_john",
-      "profile_pic": "src/assets/ben2.jpg"
+      "profile_pic": "/ben2.jpg"
     },
     {
       "id": "103",
       "username": "foodie_anna",
-      "profile_pic": "src/assets/ben3.jpg"
+      "profile_pic": "/ben3.jpg"
     }
   ],
   "shorts": [
@@ -95,27 +95,27 @@
       "user": {
         "id": 101,
         "username": "usernanc",
-        "profile_pic": "src/assets/ben1.jpg"
+        "profile_pic": "/ben1.jpg"
       },
-      "image": "/src/assets/beach.jpg"
+      "image": "/beach.jpg"
     },
     {
       "id": "2",
       "user": {
         "id": 102,
         "username": "traveler_john",
-        "profile_pic": "src/assets/ben2.jpg"
+        "profile_pic": "/ben2.jpg"
       },
-      "image": "/src/assets/mountains.jpg"
+      "image": "/mountains.jpg"
     },
     {
       "id": "3",
       "user": {
         "id": 103,
         "username": "foodie_anna",
-        "profile_pic": "src/assets/ben3.jpg"
+        "profile_pic": "/ben3.jpg"
       },
-      "image": "/src/assets/waterfalls.jpg"
+      "image": "/waterfalls.jpg"
     }
   ],
   "followers": [
