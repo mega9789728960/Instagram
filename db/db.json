@@ -1,0 +1,155 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "usernanc",
+        "profile_pic": "src/assets/ben1.jpg"
+      },
+      "image": "src/assets/ben1.jpg",
+      "caption": "Beautiful sunset picture",
+      "likes": 125,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Amazing shot!"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-08-09T12:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "traveler_john",
+        "profile_pic": "src/assets/ben2.jpg"
+      },
+      "image": "src/assets/ben2.jpg",
+      "caption": "Reached the top! 🏔️",
+      "likes": 210,
+      "comments": [
+        {
+          "user": "sara_lee",
+          "comment": "This view is insane!"
+        },
+        {
+          "user": "mike89",
+          "comment": "Which mountain?"
+        }
+      ],
+      "timestamp": "2025-08-08T15:20:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_anna",
+        "profile_pic": "src/assets/ben3.jpg"
+      },
+      "image": "src/assets/ben3.jpg",
+      "caption": "Homemade pasta night 🍝",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "chef_mario",
+          "comment": "Looks so tasty!"
+        },
+        {
+          "user": "linda_k",
+          "comment": "Recipe please!"
+        }
+      ],
+      "timestamp": "2025-08-07T19:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "usernancjfrhf",
+    "profile_pic": "src/assets/ben1.jpg"
+  },
+  "suggestion": [
+    {
+      "id": "101",
+      "username": "usernanc",
+      "profile_pic": "src/assets/ben1.jpg"
+    },
+    {
+      "id": "102",
+      "username": "traveler_john",
+      "profile_pic": "src/assets/ben2.jpg"
+    },
+    {
+      "id": "103",
+      "username": "foodie_anna",
+      "profile_pic": "src/assets/ben3.jpg"
+    }
+  ],
+  "shorts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "usernanc",
+        "profile_pic": "src/assets/ben1.jpg"
+      },
+      "image": "/src/assets/beach.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "traveler_john",
+        "profile_pic": "src/assets/ben2.jpg"
+      },
+      "image": "/src/assets/mountains.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_anna",
+        "profile_pic": "src/assets/ben3.jpg"
+      },
+      "image": "/src/assets/waterfalls.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "102",
+      "username": "traveler_john"
+    },
+    {
+      "id": "103",
+      "username": "foodie_anna"
+    },
+    {
+      "id": "101",
+      "username": "usernanc"
+    },
+    {
+      "id": "101",
+      "username": "usernanc"
+    },
+    {
+      "id": "101",
+      "username": "usernanc"
+    },
+    {
+      "id": "102",
+      "username": "traveler_john"
+    },
+    {
+      "id": "102",
+      "username": "traveler_john"
+    },
+    {
+      "id": "103",
+      "username": "foodie_anna"
+    }
+  ]
+}
